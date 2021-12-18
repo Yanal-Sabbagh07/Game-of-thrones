@@ -1,13 +1,19 @@
 import "./App.css";
-import houses from "./API-Calls/NewHouses";
-import Houses from "./components/Houses";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import Houses from "./Pages/homePage/Houses";
+import Details from "./Pages/detailsPage/Details";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Game of thrones</h1>
-      <Houses houses={houses}></Houses>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Houses />} />
+        <Route
+          path="/https://anapioficeandfire.com/api/houses/:id"
+          element={<Details />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
