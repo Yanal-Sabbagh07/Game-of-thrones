@@ -1,0 +1,57 @@
+.house {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  background-color: #fff;
+}
+.house-img {
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+h4::before {
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  content: " ";
+  width: 245px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+h4 {
+  color: #555;
+  font-family: display;
+  font-size: 18px;
+}
+h4::after {
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  content: " ";
+  width: 245px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.link {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.details-btn {
+  font-family: display;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 7.5px 15px;
+  background-color: #b9540c;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,7 +1,8 @@
 import "./App.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import Houses from "./Pages/homePage/Houses";
-import Details from "./Pages/detailsPage/Details";
+
+import Houses from "./Pages/homePage/components/Houses";
+import HouseDetails from "./Pages/detailsPage/HouseDetails";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Route path="/" element={<Houses />} />
         <Route
           path="/https://anapioficeandfire.com/api/houses/:id"
-          element={<Details />}
+          element={<HouseDetails />}
         />
       </Routes>
     </Router>

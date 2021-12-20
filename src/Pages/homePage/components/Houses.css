@@ -1,0 +1,31 @@
+.houses {
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+h1 {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 36px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-family: display;
+  font-weight: 900;
+}
+h1::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 12.5%;
+  margin: 0 auto;
+  margin-top: 30px;
+}

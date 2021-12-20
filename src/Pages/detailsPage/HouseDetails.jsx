@@ -2,9 +2,9 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./Details.css";
+import "./HouseDetails.css";
 
-const Details = () => {
+const HouseDetails = () => {
   const { id } = useParams();
   const [house, setHouse] = useState();
 
@@ -32,4 +32,4 @@ const Details = () => {
   }
 };
 
-export default Details;
+export default HouseDetails;
