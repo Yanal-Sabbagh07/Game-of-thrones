@@ -1,3 +1,79 @@
-.header {
-  text-align: center;
+.detailsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsHeader {
+  color: #e67e22;
+  margin-top: 20px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-family: display;
+  text-transform: uppercase;
+}
+h3::after {
+  display: block;
+  height: 3px;
+  background-color: #e67e22;
+  content: " ";
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.detailsCard {
+  margin-top: 25px;
+
+  background-color: #141515;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  height: 60vh;
+}
+
+.detailsCard-left {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 100%;
+  color: #fff;
+  font: display;
+  font-size: 22px;
+}
+p {
+  margin-left: 48px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  word-spacing: 2px;
+  font-family: display;
+  text-align: justify;
+}
+
+.detailsCard-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+
+.detailsImg {
+  height: 180px;
+  width: 180px;
+}
+
+span {
+  color: #00b8ff;
+  font-family: display;
+}
+.normal {
+  color: #fff;
 }

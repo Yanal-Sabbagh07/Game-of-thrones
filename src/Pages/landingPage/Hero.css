@@ -4,10 +4,10 @@
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 2550, 255, 0)
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 2550, 255, 0.15)
     ),
-    url(../../../../public/images/background.jpg);
+    url(../../../public/images/background.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -28,7 +28,7 @@
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  color: #ccc;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
@@ -39,6 +39,8 @@
   border-radius: 5px;
   margin-bottom: 10px;
   font-family: display;
+  cursor: pointer;
+  background-color: none;
 }
 .hero-btn:hover {
   color: #fff;

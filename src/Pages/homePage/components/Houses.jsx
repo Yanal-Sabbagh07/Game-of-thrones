@@ -3,14 +3,12 @@ import HouseCard from "./HouseCard";
 import FetchingHouses from "../API/FetchingHouses";
 import houses from "../API/NewHouses";
 import "./Houses.css";
-import Hero from "./Hero";
 
 const Houses = () => {
   const housesApi = FetchingHouses();
   const housesImgs = houses.map((house) => house.img);
   return (
     <div>
-      <Hero />
       <div className="houses" id="houses">
         <h1>Most Popular Houses</h1>
 
