@@ -6,7 +6,7 @@ import HouseDetails from "./Pages/detailsPage/HouseDetails";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/Houses" element={<Houses />} />
