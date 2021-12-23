@@ -1,20 +1,20 @@
 .house {
   width: 310px;
   height: 350px;
-  border: 3px solid #212222;
+  border: 3px solid #19232c;
   border-radius: 5px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 50px;
-  background-color: #212222;
+  background-color: #19232c;
 }
 .house:hover {
-  background-color: #3a3b3c;
-  border-color: #e67e22;
-  box-shadow: 0 0 15px #e67e22;
+  background-color: #436380;
+  border-color: #436380;
+  box-shadow: 0 0 25px #436380;
   transition: 0.3s;
 }
 .house-img {
@@ -25,16 +25,16 @@
 }
 
 h4 {
-  color: #ccccda;
+  color: #f2efec;
   font-family: display;
   font-size: 24px;
 }
 h4::after {
   display: block;
-  height: 2px;
-  background-color: #2d2e2f;
+  height: 1px;
+  background-color: none;
   content: " ";
-  width: 310px;
+  width: 304px;
   margin: 0 auto;
   margin-top: 24px;
 }

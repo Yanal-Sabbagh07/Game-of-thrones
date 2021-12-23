@@ -2,48 +2,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .detailsHeader {
-  color: #e67e22;
-  margin-top: 20px;
-  font-size: 32px;
-  letter-spacing: 2px;
-  word-spacing: 5px;
+  font-size: 3.2rem;
   font-family: display;
   text-transform: uppercase;
 }
-h3::after {
-  display: block;
-  height: 3px;
-  background-color: #e67e22;
-  content: " ";
-  width: 25%;
-  margin: 0 auto;
-  margin-top: 30px;
-}
 
 .detailsCard {
-  margin-top: 25px;
-
-  background-color: #141515;
+  margin-top: 10vh;
+  background-color: #19232c;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70vw;
+  width: 60vw;
   height: 60vh;
 }
 
 .detailsCard-left {
   display: flex;
-  flex: none;
+
   align-items: center;
-  justify-content: center;
+
   width: 65%;
   height: 100%;
-  color: #fff;
+  color: #ccc;
   font: display;
   font-size: 22px;
 }
@@ -66,8 +51,8 @@ p {
 }
 
 .detailsImg {
-  height: 180px;
-  width: 180px;
+  height: 18rem;
+  width: 18rem;
 }
 
 span {

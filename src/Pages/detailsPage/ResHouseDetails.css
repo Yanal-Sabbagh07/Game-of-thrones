@@ -1,0 +1,41 @@
+@media (max-width: 40em) {
+  .detailsHeader {
+    font-size: 1.2em;
+  }
+  .detailsCard {
+    margin-top: 6vh;
+    background-color: #19232c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
+  }
+  .detailsCard-left {
+    width: 90%;
+    height: 100%;
+    color: #ccc;
+  }
+  p {
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    line-height: 40px;
+    word-spacing: 2px;
+    font-family: display;
+    text-align: justify;
+  }
+  .detailsCard-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .detailsImg {
+    height: 13em;
+    width: 13em;
+  }
+}
