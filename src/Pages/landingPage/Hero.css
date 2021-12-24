@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url(../../../public/images/game.jpg);
   background-size: cover;
   background-position: center;
@@ -11,27 +11,26 @@
   background-attachment: fixed;
 }
 .top-header {
+  margin-top: 18rem;
   font-family: display;
   text-transform: uppercase;
-  letter-spacing: 2rem;
+  letter-spacing: 1rem;
   color: #fff;
   font-size: 6.8rem;
   font-weight: 300;
 }
 .secound-header {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-top: 3rem;
   font-family: display;
   text-transform: uppercase;
   letter-spacing: 1rem;
   color: #e67e22;
   font-size: 4.8rem;
   font-weight: 300;
-  font-family: 900;
 }
 
 .hero-btn {
-  position: relative;
+  margin-top: 6rem;
   display: inline-block;
   padding: 15px 30px;
   color: #fff;
@@ -50,7 +49,7 @@
 }
 .hero-btn:hover {
   color: #fff;
-  border-color: #b9540c;
-  background: #b9540c;
-  box-shadow: 0 0 10px #b9540c, 0 0 20px #b9540c, 0 0 40px #b9540c;
+  border-color: #e67e22;
+  background: #e67e22;
+  box-shadow: 0 0 10px #e67e22, 0 0 15px #e67e22, 0 0 30px #e67e22;
 }

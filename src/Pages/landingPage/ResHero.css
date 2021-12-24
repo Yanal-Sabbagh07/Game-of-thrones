@@ -1,34 +1,36 @@
 /* smaller laptop below 1366PX */
 @media (max-width: 84em) {
   .top-header {
-    font-size: 4.2em;
+    font-size: 5.8em;
   }
   .secound-header {
-    letter-spacing: 0.1em;
-    font-size: 3.6rem;
+    font-size: 3.8rem;
   }
 }
 
 /* TABLET BELOW THAN 960PX */
 @media (max-width: 60em) {
   .top-header {
-    font-size: 2.8em;
+    font-size: 4.8em;
+  }
+  .secound-header {
+    font-size: 2.8rem;
   }
 }
 
 /* BELOW THAN 640PX (Mobile)*/
 @media (max-width: 40em) {
   .top-header {
-    letter-spacing: 0.4em;
-    font-size: 1.8em;
+    margin-top: 5em;
+    font-size: 2.5em;
   }
   .secound-header {
-    letter-spacing: 0.1em;
-    font-size: 1.8rem;
+    font-size: 1.5em;
+    font-weight: 900;
   }
   .hero-btn {
     letter-spacing: 0.1em;
-    font-size: 1.4em;
+    font-size: 1.5em;
     background-color: #b9540c;
     padding: 15px 15px;
   }
