@@ -10,10 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/Houses" element={<Houses />} />
-        <Route
-          path="/https://anapioficeandfire.com/api/houses/:id"
-          element={<HouseDetails />}
-        />
+        <Route path="/Houses/:id" element={<HouseDetails />} />
       </Routes>
     </Router>
   );

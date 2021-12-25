@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 2.4rem;
   background-color: #19232c;
 }
 .house:hover {

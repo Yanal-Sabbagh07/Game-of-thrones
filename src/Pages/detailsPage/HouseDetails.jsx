@@ -1,25 +1,15 @@
-import axios from "axios";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import "./HouseDetails.css";
 import "./ResHouseDetails.css";
 import DetailsCard from "./DetailsCard";
 import housesLogo from "../../API/HousesLogo";
+import FetchingHouses from "../../API/FetchingHouses";
 
 const HouseDetails = () => {
   const { id } = useParams();
-  const [house, setHouse] = useState();
-
-  useEffect(() => {
-    axios
-      .get(`https://anapioficeandfire.com/api/houses/${id}`)
-      .then((res) => {
-        setHouse(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, [id]);
+  const url = `houses/${id}`;
+  const house = FetchingHouses(url);
   if (!house) return null;
   else {
     return (

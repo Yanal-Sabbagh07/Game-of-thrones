@@ -1,6 +1,7 @@
 import React from "react";
 import Lord from "./Lord";
 import Heir from "./Heir";
+import Founder from "./Founder";
 
 const DetailsCard = (props) => {
   return (
@@ -9,7 +10,7 @@ const DetailsCard = (props) => {
         <p>
           <span className="normal">{props.name}</span> is a noble House from{" "}
           <span className="normal">{props.region}</span> region, it was founded
-          by <span>{props.founder ? props.founder : " unknown"}</span> in
+          by {props.founder && <Founder url={props.founder} />} in
           <span>{props.founded ? props.founded : " unknown"}</span>.<br />
           Their Lord was
           <span>
@@ -20,7 +21,7 @@ const DetailsCard = (props) => {
         </p>
       </div>
       <div className="detailsCard-right">
-        <img className="detailsImg" src={props.img} />
+        <img className="detailsImg" alt="house logo" src={props.img} />
       </div>
     </div>
   );

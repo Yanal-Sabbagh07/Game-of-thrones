@@ -6,8 +6,8 @@ import "./Houses.css";
 import "./ResHouses.css";
 
 const Houses = () => {
-  const housesApi = FetchingHouses();
-
+  const housesApi = FetchingHouses("houses");
+  //console.log(housesApi);
   return (
     <div>
       <div className="houses" id="houses">
@@ -15,7 +15,7 @@ const Houses = () => {
 
         <div className="cards-container">
           {housesApi.map((house, index) => (
-            <div key={house.url}>
+            <div key={house.name}>
               <HouseCard
                 name={house.name}
                 image={housesLogo[index]}
