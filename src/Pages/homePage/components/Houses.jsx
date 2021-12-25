@@ -1,13 +1,13 @@
 import React from "react";
 import HouseCard from "./HouseCard";
-import FetchingHouses from "../API/FetchingHouses";
-import houses from "../API/NewHouses";
+import FetchingHouses from "../../../API/FetchingHouses";
+import housesLogo from "../../../API/HousesLogo";
 import "./Houses.css";
 import "./ResHouses.css";
 
 const Houses = () => {
   const housesApi = FetchingHouses();
-  const housesImgs = houses.map((house) => house.img);
+
   return (
     <div>
       <div className="houses" id="houses">
@@ -18,7 +18,7 @@ const Houses = () => {
             <div key={house.url}>
               <HouseCard
                 name={house.name}
-                image={housesImgs[index]}
+                image={housesLogo[index]}
                 url={house.url}
               ></HouseCard>
             </div>

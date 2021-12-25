@@ -1,16 +1,14 @@
 import axios from "axios";
-import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./HouseDetails.css";
 import "./ResHouseDetails.css";
-
 import DetailsCard from "./DetailsCard";
-import houses from "../homePage/API/NewHouses";
+import housesLogo from "../../API/HousesLogo";
+
 const HouseDetails = () => {
   const { id } = useParams();
   const [house, setHouse] = useState();
-  const housesImgs = houses.map((house) => house.img);
 
   useEffect(() => {
     axios
@@ -38,7 +36,7 @@ const HouseDetails = () => {
             founded={house.founded}
             lord={house.currentLord}
             heir={house.heir}
-            img={housesImgs[id - 1]}
+            img={housesLogo[id - 1]}
           />
         </div>
       </div>
