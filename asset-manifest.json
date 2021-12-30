@@ -1,15 +1,44 @@
 {
   "files": {
-    "main.css": "/Game-of-thrones/static/css/main.aaaa0d81.css",
-    "main.js": "/Game-of-thrones/static/js/main.56d55127.js",
+    "main.css": "/Game-of-thrones/static/css/main.249e8d9b.css",
+    "main.js": "/Game-of-thrones/static/js/main.2a69158e.js",
+    "static/media/1963.jpg": "/Game-of-thrones/static/media/1963.d61d22bcec8c0b677153.jpg",
     "static/media/game.jpg": "/Game-of-thrones/static/media/game.288347f657a4585db334.jpg",
+    "static/media/4.png": "/Game-of-thrones/static/media/4.1a71e29fa62ec4c4694e.png",
+    "static/media/775.jpg": "/Game-of-thrones/static/media/775.caaa180cd933700d9e63.jpg",
+    "static/media/2.png": "/Game-of-thrones/static/media/2.b5c9bcac5eb7f4cbeccc.png",
+    "static/media/34.png": "/Game-of-thrones/static/media/34.126a9bbfdb00dee2979b.png",
+    "static/media/16.png": "/Game-of-thrones/static/media/16.154587a3f9c756062edc.png",
+    "static/media/7.png": "/Game-of-thrones/static/media/7.c80ea123876fc5c09988.png",
+    "static/media/5.png": "/Game-of-thrones/static/media/5.0417444cea5b45bf3fac.png",
+    "static/media/229.png": "/Game-of-thrones/static/media/229.1c3746c07c234767b9db.png",
+    "static/media/15.png": "/Game-of-thrones/static/media/15.b9dad026179040739942.png",
+    "static/media/75.jpg": "/Game-of-thrones/static/media/75.230680ebe6e577e152f3.jpg",
+    "static/media/8.png": "/Game-of-thrones/static/media/8.159081131ec120c45574.png",
+    "static/media/398.png": "/Game-of-thrones/static/media/398.89f7442ba1367f7029ed.png",
+    "static/media/901.jpg": "/Game-of-thrones/static/media/901.701e5d4fbe50b172eddc.jpg",
+    "static/media/849.jpg": "/Game-of-thrones/static/media/849.4e411c6c19f3dffb81f7.jpg",
+    "static/media/6.png": "/Game-of-thrones/static/media/6.a148172106cdf90c7cc0.png",
+    "static/media/3.png": "/Game-of-thrones/static/media/3.706509b6d07291f44360.png",
+    "static/media/477.jpg": "/Game-of-thrones/static/media/477.0f798f229eb47db6c680.jpg",
+    "static/media/285.png": "/Game-of-thrones/static/media/285.3d871460d55275ab0abe.png",
+    "static/media/9.png": "/Game-of-thrones/static/media/9.444e9f4d3385125014d7.png",
+    "static/media/10.png": "/Game-of-thrones/static/media/10.9fbd1d10bd6be47407ed.png",
+    "static/media/1922.jpg": "/Game-of-thrones/static/media/1922.2072c3dd37157fb2295d.jpg",
+    "static/media/1113.jpg": "/Game-of-thrones/static/media/1113.098b63f529abb6794494.jpg",
+    "static/media/615.jpg": "/Game-of-thrones/static/media/615.2557af2980e715e7a1eb.jpg",
+    "static/media/1718.jpg": "/Game-of-thrones/static/media/1718.d5eaafe6761968cb228e.jpg",
+    "static/media/1.png": "/Game-of-thrones/static/media/1.2f2543fde200a8bb9d80.png",
     "static/media/Game of Thrones.ttf": "/Game-of-thrones/static/media/Game of Thrones.71fa190a8a1a34123fa1.ttf",
+    "static/media/144.jpg": "/Game-of-thrones/static/media/144.7d2c593e9939f763e300.jpg",
+    "static/media/975.jpg": "/Game-of-thrones/static/media/975.703a5fc0ad6fa33b35a3.jpg",
+    "static/media/130.jpg": "/Game-of-thrones/static/media/130.e42295796be4e84c6bb1.jpg",
     "index.html": "/Game-of-thrones/index.html",
-    "main.aaaa0d81.css.map": "/Game-of-thrones/static/css/main.aaaa0d81.css.map",
-    "main.56d55127.js.map": "/Game-of-thrones/static/js/main.56d55127.js.map"
+    "main.249e8d9b.css.map": "/Game-of-thrones/static/css/main.249e8d9b.css.map",
+    "main.2a69158e.js.map": "/Game-of-thrones/static/js/main.2a69158e.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaaa0d81.css",
-    "static/js/main.56d55127.js"
+    "static/css/main.249e8d9b.css",
+    "static/js/main.2a69158e.js"
   ]
 }
