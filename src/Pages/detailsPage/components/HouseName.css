@@ -4,6 +4,7 @@
   color: #f2f2f2;
   text-transform: uppercase;
 }
+
 h5::after {
   display: block;
   height: 3px;
@@ -16,4 +17,20 @@ h5::after {
 .house-region {
   font-size: 2.4rem;
   color: #ccc;
+}
+@media (max-width: 40em) {
+  .container-name {
+    font-size: 1.8rem;
+  }
+  h5::after {
+    display: block;
+    height: 2px;
+    background-color: #f2f2f2;
+    content: " ";
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+  .house-region {
+    font-size: 1.8rem;
+  }
 }

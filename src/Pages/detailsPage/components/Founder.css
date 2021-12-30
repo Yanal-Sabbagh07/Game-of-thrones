@@ -1,0 +1,33 @@
+.house-founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+.house-founder-title {
+  color: #ccc;
+  margin-bottom: 0.8rem;
+}
+.founder-img {
+  border-radius: 50%;
+  height: 7.5rem;
+  width: 7.5rem;
+  cursor: pointer;
+}
+.house-founder-name {
+  color: #ccc;
+  margin: 1rem;
+}
+@media (max-width: 40em) {
+  .house-founder {
+    font-size: 1.6rem;
+  }
+  .founder-img {
+    height: 4em;
+    width: 4em;
+  }
+  .house-founder-name {
+    margin: 0.5em;
+  }
+}

@@ -11,3 +11,11 @@
   color: aqua;
   text-decoration: none;
 }
+@media (max-width: 40em) {
+  .overlord-title {
+    font-size: 1.8rem;
+  }
+  .overlord-name {
+    font-size: 1.6rem;
+  }
+}

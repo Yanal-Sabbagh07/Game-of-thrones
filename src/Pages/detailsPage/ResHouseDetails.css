@@ -1,67 +1,31 @@
 @media (max-width: 40em) {
-  .detailsPage {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .details-card-container {
-    background-color: #19232c;
-    border-radius: 5px;
-    width: 80%;
-    height: 80%;
-  }
   .details-card-header {
-    background-color: #080d12;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1.8em;
-    padding: 1rem;
-    height: 10%;
+    height: 8%;
+  }
+  .back-to-houses {
+    font-size: 1.8rem;
   }
 
-  .detailsCard {
+  .house-heir {
     display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 90%;
-  }
-
-  .detailsCard-left {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    height: 60%;
-    color: #ccc;
-    font: display;
-  }
-  p {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     font-size: 1.6rem;
-    letter-spacing: 2px;
-
-    font-family: display;
   }
 
-  .detailsCard-right {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 50%;
+  .house-heir-title {
+    color: #ccc;
+    margin-bottom: 0.8rem;
   }
-
-  .detailsImg {
-    height: 50%;
-    width: 50%;
+  .heir-img {
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    cursor: pointer;
   }
-
-  span {
-    color: #00b8ff;
-    font-family: display;
-  }
-  .normal {
-    color: #fff;
+  .heir-name {
+    color: #ccc;
+    margin: 0.5em;
   }
 }

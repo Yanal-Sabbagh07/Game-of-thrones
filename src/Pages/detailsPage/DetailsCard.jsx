@@ -2,11 +2,12 @@ import React from "react";
 import HouseName from "./components/HouseName";
 import OverLord from "./components/OverLord";
 import Titles from "./components/Titles";
-import Lord from "./components/Lord";
+
 import Heir from "./components/Heir";
 import Founder from "./components/Founder";
 import "../../imgs/logos/1.png";
 import "./DetailsCard.css";
+import "./ResDetailsCard.css";
 const DetailsCard = (props) => {
   return (
     <div className="detailsCard-content">

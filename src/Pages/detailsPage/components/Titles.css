@@ -8,3 +8,13 @@
   font-size: 1.8rem;
   margin-left: 3.2rem;
 }
+
+@media (max-width: 40em) {
+  .titles-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .titles-name {
+    font-size: 1.6rem;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FetchingHouses from "../../../API/FetchingHouses";
+import "./Founder.css";
 
 const Founder = (props) => {
   const housefounder = props.url.split("/");
