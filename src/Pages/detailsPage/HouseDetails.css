@@ -2,61 +2,72 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.detailsHeader {
-  font-size: 3.2rem;
-  font-family: display;
-  text-transform: uppercase;
-}
-
-.detailsCard {
-  margin-top: 10vh;
+.details-card-container {
   background-color: #19232c;
   border-radius: 5px;
+  width: 100vw;
+  height: 100vh;
+}
+.details-card-header {
+  background-color: #10161b;
+  height: 10%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 60vw;
-  height: 60vh;
+  justify-content: flex-start;
+  padding-left: 3.2rem;
+}
+.back-to-houses {
+  color: aqua;
+  font-size: 2.4rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.detailsCard-left {
+.house-founder {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 65%;
-  height: 100%;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+.house-founder-title {
   color: #ccc;
-  font: display;
-  font-size: 22px;
+  margin-bottom: 0.8rem;
 }
-p {
-  margin-left: 48px;
-  font-size: 24px;
-  letter-spacing: 2px;
-  line-height: 40px;
-  word-spacing: 2px;
-  font-family: display;
-  text-align: justify;
+.founder-img {
+  border-radius: 50%;
+  height: 7.5rem;
+  width: 7.5rem;
+  cursor: pointer;
+}
+.house-founder-name {
+  color: #ccc;
+  margin: 1rem;
 }
 
-.detailsCard-right {
+.house-heir {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 30%;
-  height: 100%;
+  justify-content: space-around;
+  font-size: 2rem;
 }
 
-.detailsImg {
-  height: 18rem;
-  width: 18rem;
+.house-heir-title {
+  color: #ccc;
+  margin-bottom: 0.8rem;
 }
-
-span {
-  color: #00b8ff;
-  font-family: display;
+.heir-img {
+  border-radius: 50%;
+  height: 7.5rem;
+  width: 7.5rem;
+  cursor: pointer;
 }
-.normal {
-  color: #fff;
+.heir-name {
+  color: #ccc;
+  margin: 1rem;
 }

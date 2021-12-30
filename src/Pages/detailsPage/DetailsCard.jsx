@@ -1,27 +1,44 @@
 import React from "react";
-import Lord from "./Lord";
-import Heir from "./Heir";
-import Founder from "./Founder";
-
+import HouseName from "./components/HouseName";
+import OverLord from "./components/OverLord";
+import Titles from "./components/Titles";
+import Lord from "./components/Lord";
+import Heir from "./components/Heir";
+import Founder from "./components/Founder";
+import "../../imgs/logos/1.png";
+import "./DetailsCard.css";
 const DetailsCard = (props) => {
   return (
-    <div className="detailsCard">
+    <div className="detailsCard-content">
       <div className="detailsCard-left">
-        <p>
-          <span className="normal">{props.name}</span> is a noble House from{" "}
-          <span className="normal">{props.region}</span> region, it was founded
-          by {props.founder && <Founder url={props.founder} />} in
-          <span>{props.founded ? props.founded : " unknown"}</span>.<br />
-          Their Lord was
-          <span>
-            {props.currentLord ? <Lord lord={props.currentLord} /> : " unknown"}
-          </span>{" "}
-          and the heir is
-          <span>{props.heir ? <Heir heir={props.heir} /> : " unknown"}.</span>
-        </p>
+        <img
+          className="detailsImg"
+          alt="house logo"
+          src={require(`../../imgs/logos/${props.img}`)}
+        />
+        <div className="founder-heir-container">
+          {props.founder && <Founder url={props.founder} />}
+          {props.heir && <Heir heir={props.heir} />}
+        </div>
       </div>
       <div className="detailsCard-right">
-        <img className="detailsImg" alt="house logo" src={props.img} />
+        <HouseName name={props.name} region={props.region} />
+        <div>
+          <h3 className="house-region">Located in: {props.region} region.</h3>
+        </div>
+        {props.overlord && <OverLord houseUrl={props.overlord} />}
+        {props.titles && (
+          <div className="titles-container">
+            <h3 className="titles-title">Titles that this House has won:</h3>
+            <Titles titles={props.titles} />
+          </div>
+        )}
+        {props.seats && (
+          <div className="seats-container">
+            <h3 className="titles-title">Seats that this House has owned:</h3>
+            <Titles titles={props.seats} />
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,13 @@
+.overlord-title {
+  font-size: 2.8rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.overlord-name {
+  font-size: 2.4rem;
+  margin-left: 3.2rem;
+  cursor: pointer;
+  color: aqua;
+  text-decoration: none;
+}
