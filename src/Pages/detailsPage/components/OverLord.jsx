@@ -9,10 +9,13 @@ const OverLord = (props) => {
   const house = FetchingHouses(`houses/${houseId}`);
   return (
     <div className="house-overlord">
-      <h3 className="overlord-title">This House belongs to:</h3>
-      <Link className="overlord-name" to={`/houses/${houseId}`}>
-        {house.name}
-      </Link>
+      <h3 className="overlord-title">
+        Belongs to:
+        <Link className="overlord-name" to={`/houses/${houseId}`}>
+          {" "}
+          {house.name}
+        </Link>
+      </h3>
     </div>
   );
 };

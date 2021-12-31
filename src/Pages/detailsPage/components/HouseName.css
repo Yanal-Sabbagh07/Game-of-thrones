@@ -1,17 +1,8 @@
 .container-name {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-family: display;
   color: #f2f2f2;
   text-transform: uppercase;
-}
-
-h5::after {
-  display: block;
-  height: 3px;
-  background-color: #fff;
-  content: " ";
-  width: 100%;
-  margin-top: 1.6rem;
 }
 
 .house-region {
@@ -22,14 +13,7 @@ h5::after {
   .container-name {
     font-size: 1.8rem;
   }
-  h5::after {
-    display: block;
-    height: 2px;
-    background-color: #f2f2f2;
-    content: " ";
-    width: 100%;
-    margin-top: 0.8rem;
-  }
+
   .house-region {
     font-size: 1.8rem;
   }

@@ -5,7 +5,7 @@ import "./ResHouseDetails.css";
 import DetailsCard from "./DetailsCard";
 import { Link } from "react-router-dom";
 import FetchingHouses from "../../API/FetchingHouses";
-// {props.words && <h3 className="house-word">{props.words}</h3>}
+
 const HouseDetails = () => {
   const { id } = useParams();
   const url = `houses/${id}`;

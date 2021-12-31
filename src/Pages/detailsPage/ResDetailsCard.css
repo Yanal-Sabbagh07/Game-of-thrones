@@ -17,8 +17,8 @@
     border-bottom: 5px solid #10161b;
   }
   .detailsImg {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
   }
   .detailsCard-right {
     display: flex;
@@ -34,6 +34,11 @@
     font-size: 2rem;
     background-color: #19232c;
     border-left: 0px solid #10161b;
+  }
+  .word-content {
+    color: #ccc;
+
+    font-size: 1.8rem;
   }
   .founder-heir-container {
     width: 100%;

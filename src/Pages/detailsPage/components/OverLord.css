@@ -6,9 +6,8 @@
 
 .overlord-name {
   font-size: 2.4rem;
-  margin-left: 3.2rem;
   cursor: pointer;
-  color: aqua;
+  color: #61dafb;
   text-decoration: none;
 }
 @media (max-width: 40em) {

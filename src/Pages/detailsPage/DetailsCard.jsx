@@ -12,6 +12,7 @@ const DetailsCard = (props) => {
   return (
     <div className="detailsCard-content">
       <div className="detailsCard-left">
+        <HouseName name={props.name} region={props.region} />
         <img
           className="detailsImg"
           alt="house logo"
@@ -23,10 +24,14 @@ const DetailsCard = (props) => {
         </div>
       </div>
       <div className="detailsCard-right">
-        <HouseName name={props.name} region={props.region} />
         <div>
           <h3 className="house-region">Located in: {props.region} region.</h3>
         </div>
+        {props.words && (
+          <div className="word-container">
+            <h3 className="word-content">Their Word is : "{props.words}"</h3>
+          </div>
+        )}
         {props.overlord && <OverLord houseUrl={props.overlord} />}
         {props.titles && (
           <div className="titles-container">

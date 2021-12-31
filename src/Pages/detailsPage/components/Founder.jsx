@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import FetchingHouses from "../../../API/FetchingHouses";
 import "./Founder.css";
 
