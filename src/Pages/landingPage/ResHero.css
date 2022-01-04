@@ -21,7 +21,7 @@
 /* BELOW THAN 640PX (Mobile)*/
 @media (max-width: 40em) {
   .top-header {
-    margin-top: 5em;
+    margin-top: 30rem;
     font-size: 2.4em;
     font-family: display;
   }

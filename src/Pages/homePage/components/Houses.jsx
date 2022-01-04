@@ -4,13 +4,15 @@ import FetchingHouses from "../../../API/FetchingHouses";
 import housesLogo from "../../../API/HousesLogo";
 import "./Houses.css";
 import "./ResHouses.css";
+import NavBar from "../../../components/NavBar";
 
-const Houses = () => {
+const Houses = (props) => {
   const housesApi = FetchingHouses("houses");
   //console.log(housesApi);
   return (
     <div>
       <div className="houses" id="houses">
+        <NavBar menu={props.menu} setMenu={props.setMenu} />
         <h1>Most Popular Houses</h1>
 
         <div className="cards-container">
