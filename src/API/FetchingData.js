@@ -1,19 +1,21 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-const FetchingHouses = (url) => {
-  const [houses, setHouses] = useState([]);
+const FetchingData = (url) => {
+  const [data, setData] = useState([]);
+
   useEffect(() => {
     axios
       .get(`https://anapioficeandfire.com/api/${url}`)
       .then((res) => {
-        setHouses(res.data);
+        setData(res.data);
       })
       .catch((err) => {
         console.log(err);
       });
   }, [url]);
+  console.log(data);
 
-  return houses;
+  return data;
 };
 
-export default FetchingHouses;
+export default FetchingData;

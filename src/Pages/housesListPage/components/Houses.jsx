@@ -1,13 +1,13 @@
 import React from "react";
 import HouseCard from "./HouseCard";
-import FetchingHouses from "../../../API/FetchingHouses";
+import FetchingData from "../../../API/FetchingData";
 import housesLogo from "../../../API/HousesLogo";
 import "./Houses.css";
 import "./ResHouses.css";
 import NavBar from "../../../components/NavBar";
 
 const Houses = (props) => {
-  const housesApi = FetchingHouses("houses");
+  const housesApi = FetchingData("houses");
   //console.log(housesApi);
   return (
     <div>

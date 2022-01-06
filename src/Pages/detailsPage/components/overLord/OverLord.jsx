@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FetchingHouses from "../../../API/FetchingHouses";
+import FetchingData from "../../../../API/FetchingData";
 import "./OverLord.css";
 
 const OverLord = (props) => {
   const urlSplited = props.houseUrl.split("/");
   const houseId = urlSplited[urlSplited.length - 1];
-  const house = FetchingHouses(`houses/${houseId}`);
+  const house = FetchingData(`houses/${houseId}`);
   return (
     <div className="house-overlord">
       <h3 className="overlord-title">

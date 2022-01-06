@@ -1,10 +1,9 @@
 import React from "react";
-import HouseName from "./components/HouseName";
-import OverLord from "./components/OverLord";
-import Titles from "./components/Titles";
-
-import Heir from "./components/Heir";
-import Founder from "./components/Founder";
+import HouseName from "./components/houseName/HouseName";
+import OverLord from "./components/overLord/OverLord";
+import Titles from "./components/titles/Titles";
+import Heir from "./components/heir/Heir";
+import Founder from "./components/founder/Founder";
 import "../../imgs/logos/1.png";
 import "./DetailsCard.css";
 import "./ResDetailsCard.css";

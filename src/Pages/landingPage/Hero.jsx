@@ -4,6 +4,9 @@ import NavBar from "../../components/NavBar";
 import "./Hero.css";
 import "./ResHero.css";
 const Hero = (props) => {
+  function handleClick() {
+    props.setMenu("houses");
+  }
   return (
     <div className="hero-container">
       <NavBar menu={props.menu} setMenu={props.setMenu} />
@@ -17,7 +20,7 @@ const Hero = (props) => {
         </div>
 
         <div>
-          <Link to="/Houses" className="hero-btn">
+          <Link to="/Houses" className="hero-btn" onClick={handleClick}>
             Descover Popular houses
           </Link>
         </div>

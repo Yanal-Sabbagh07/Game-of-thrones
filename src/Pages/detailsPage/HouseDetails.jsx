@@ -4,12 +4,12 @@ import "./HouseDetails.css";
 import "./ResHouseDetails.css";
 import DetailsCard from "./DetailsCard";
 import { Link } from "react-router-dom";
-import FetchingHouses from "../../API/FetchingHouses";
+import FetchingData from "../../API/FetchingData";
 
 const HouseDetails = () => {
   const { id } = useParams();
   const url = `houses/${id}`;
-  const house = FetchingHouses(url);
+  const house = FetchingData(url);
   if (!house) return null;
   else {
     return (

@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import { Route, Routes, HashRouter as Router } from "react-router-dom";
 import Hero from "./Pages/landingPage/Hero";
-import Houses from "./Pages/homePage/components/Houses";
+import Houses from "./Pages/housesListPage/components/Houses";
 import HouseDetails from "./Pages/detailsPage/HouseDetails";
 
 function App() {

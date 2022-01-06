@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./HouseCard.css";
 const HouseCard = (props) => {
-  const houseUrl = props.url.split("/");
+  const houseUrl = props.url.split("/"); //convert the url string to array and split it to get the id from it.
   const houseId = houseUrl[houseUrl.length - 1];
   return (
     <Link className="link" to={`/houses/${houseId}`}>
